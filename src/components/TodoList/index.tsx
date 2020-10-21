@@ -49,7 +49,6 @@ export default class TodoList extends React.Component<TodoListProps, TodoListSta
     }
     
     toggle = (e: React.FormEvent<HTMLInputElement> | React.FormEvent<HTMLLabelElement>) => {
-      console.log("Wesh!")
       this.store.toggleAll(this.remainingCount > 0)
     }
     
